@@ -1,41 +1,48 @@
 
 .navbar {
-
     background-color: transparent;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
 
 .navbar-brand {
     padding-left: 10rem;
 }
-
-
 .collapse {
     padding-right: 10rem;
 }
 
+.container-fluid {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
 #quienes-somos, #destacado, #contacto {
     padding: 2rem 7rem 2rem 7rem;
 }
-
 .barra-celeste {
     background-color: rgb(13,202,240);
     height: 3rem;
 }
-
 .barra-celeste i {
     font-size: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    vertical-align: middle;
     padding-top: 0.5rem;
 }
-
 .card {
     margin-bottom: 2rem;
 }
-
 .card-body {
     background-color: rgb(13,202,240);
     color: #ffff;
@@ -43,36 +50,36 @@
 .card img {
     height: 8rem;
 }
-
 .tarjetas, .col-12 {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 footer {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     background-color: rgb(13,202,240);
     color: #ffff;
 }
-
 footer .row {
    display: flex;
    flex-direction: row;
    justify-content: space-around
 }
-
 .iconos, .titulofooter {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 .titulofooter {
     padding-top: 1.5rem;
 }
 .btn {
     background-color: rgb(13,202,240);
 }
-
 .iconos, i {
     font-size: 2rem;
     padding: 1rem;
